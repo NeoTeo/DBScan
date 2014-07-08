@@ -1,13 +1,11 @@
 # dbscan
 
-A Clojure library designed to ... well, that part is up to you.
+This is a naive implementation of the Density-based spatial clustering of applications with noise (DBSCAN) algorithm.
+It compares single floating point values but should be easily extensible, in fact that is the next item on the todo.
 
-## Usage
-
-FIXME
+You can read more on the algorithm on Wikipedia:
+https://en.wikipedia.org/wiki/DBSCAN
 
 ## License
-
-Copyright © 2013 FIXME
 
 Distributed under the Eclipse Public License, the same as Clojure.
