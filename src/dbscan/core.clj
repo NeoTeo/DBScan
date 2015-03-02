@@ -1,4 +1,7 @@
-(ns dbscan.core)
+(ns dbscan.core
+    (:use dbscan.core)
+    (:gen-class)
+)
 
 (defn average [lst] (/ (reduce + lst) (count lst)))
 
